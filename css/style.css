@@ -5,11 +5,16 @@ html {
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-nav h1{
+nav h5{
     border: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+nav h6{
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke;
 }
 /*navbar*/
@@ -22,25 +27,24 @@ nav h1{
 }
 .card-text{
     color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* sobrenosotros*/
-.sobrenosotros{
+/* nuestroservicio*/
+.nuestroservicio{
     z-index: 2;
     position: relative;
-    
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 .contenido{
     max-width: 1000px;
     padding-left: 120px;
 }
-#sobrenosotros h2{
+#nuestroservicio h2{
     border: 0;
-    
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
-#sobrenosotros hr{
+#nuestroservicio hr{
     background-color: black;
     height: 1px;
     width: 10%;
@@ -50,8 +54,8 @@ nav h1{
     min-height: 525px;
     background: transparent;
 }
-/*foto sensei*/
-#fotosensei{
+/*biosecurity2*/
+#biosecurity2{
     height: 400px;
     width: 100%;
 }
@@ -73,7 +77,7 @@ nav h1{
     .display-4{
         font-size: 45px;
     }
-    /*parrafos sobrenosotros*/
+    /*parrafos nuestroservicio*/
     .contenido{
         padding-left: 20px;
     }
