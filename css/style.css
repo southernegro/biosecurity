@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav h1{
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+/*navbar*/
+.logo{
+    height: 40px;
+}
+/*cards*/
+.card-title{
+    color: black;
+}
+.card-text{
+    color: black;
+}
+/* sobrenosotros*/
+.sobrenosotros{
+    z-index: 2;
+    position: relative;
+    
+    color: whitesmoke;
+}
+.contenido{
+    max-width: 1000px;
+    padding-left: 120px;
+}
+#sobrenosotros h2{
+    border: 0;
+    
+    color: whitesmoke;
+}
+
+#sobrenosotros hr{
+    background-color: black;
+    height: 1px;
+    width: 10%;
+}
+/*parallax section*/
+.parallax{
+    min-height: 525px;
+    background: transparent;
+}
+/*foto sensei*/
+#fotosensei{
+    height: 400px;
+    width: 100%;
+}
+/*footer*/
+.footer{
+    text-align: center;
+    background-color:rgb(43, 42, 42);
+    
+}
+
+.iconos a{
+    text-decoration: none;
+    color: white;
+}
+
+/*mediaquery*/
+@media (max-width: 575.98px) {
+    /*tamaño h1*/
+    .display-4{
+        font-size: 45px;
+    }
+    /*parrafos sobrenosotros*/
+    .contenido{
+        padding-left: 20px;
+    }
+    /*footer*/
+    .footer{
+        font-size: 12px;
+    }
+    /*formulario*/
+    .subtitulo{
+        font-size: 16px;
+    }
+}
