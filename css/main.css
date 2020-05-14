@@ -7,7 +7,7 @@ body,
     height: 100%;
 }
 .navbar-brand{
-    color: gold !important;
+    color: rgb(255, 255, 255) !important;
 }
 #cover{
     background:url("https://i.postimg.cc/bNz5Kqp7/covid19-2.jpg") no-repeat center center fixed;
