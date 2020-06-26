@@ -8,9 +8,17 @@ body,
 }
 .navbar-brand{
     color: rgb(255, 255, 255) !important;
+    height: 30px;
+    padding-bottom: 50px;
+}
+.logo{
+    height: 50px;
 }
 #cover{
-    background:url("https://i.postimg.cc/bNz5Kqp7/covid19-2.jpg") no-repeat center center fixed;
+    /*background:url("https://i.postimg.cc/bNz5Kqp7/covid19-2.jpg") no-repeat center center fixed;
+    background:url("https://image.freepik.com/free-photo/3d-interior-supermarket-with-empty-shelves-covid-19-virus-cells_1048-12466.jpg") no-repeat center center fixed;
+    */
+    background:url("https://image.freepik.com/free-photo/3d-coronavirus-cell-grunge-background_1048-12467.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -35,6 +43,7 @@ h2{
     font-size: 75px;
     color: #fff;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 3px black;
 }
 .btn-primary{
     font-family: 'Montserrat', sans-serif;
@@ -46,7 +55,7 @@ h2{
 }
 .btn-primary:hover{
     background-color: #fff;
-    color: #fed136;
+    color: #3b85e6;
 }
 a.nav-link{
     font-family: 'Montserrat', sans-serif;
